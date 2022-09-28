@@ -1,0 +1,31 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#E3A668;
+    color:darkcyan;
+}
+
+h1, h2, h3,h4,h5,h6
+{font-family:Oswald;
+font-size:44pt;
+color:#368096;
+}
+
+header {text-align: center;}
+
+#hero,footer {text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: #965F27;
+    border: 10px solid #368096;
+    padding: 10px;
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: bold;
+    color:black;}
+
+    #hero img {width: 300px;}
+
+    #bio {text-align:center;
+        font-family: Oswald;
+    font-size:14pt;
+    font-weight:bolder;
+}
