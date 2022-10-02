@@ -1,6 +1,6 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:#E3A668;
+    background-color:#c2aa91;
     color:darkcyan;
 }
 
@@ -14,7 +14,7 @@ header {text-align: center;}
 
 #hero,footer {text-align: center;
    font-family: Arial, Helvetica, sans-serif;
-    background-color: #965F27;
+    background-color: #a8a7a6;
     border: 10px solid #368096;
     padding: 10px;
     font-size: 18pt;
