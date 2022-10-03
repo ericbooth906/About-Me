@@ -34,3 +34,6 @@ header {text-align: left;}
 
     #li {text-align:left;font-family: Oswald;
     font-size:14pt;font-weight:lighter}
+
+    #figcaption {text-align:left;font-family: Oswald;
+        font-size:14pt;font-weight:lighter;color: rosybrown;font-weight: normal;}
