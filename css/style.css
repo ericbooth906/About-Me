@@ -1,8 +1,7 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:#f3dec8;
-    color:darkcyan;
-}
+    color:darkcyan}
 
 h1, h2, h3,h4,h5,h6
 {font-family:Oswald;color:#368096;}
@@ -38,16 +37,21 @@ color:sienna}
     #li{text-align:left;font-family: Oswald;
     font-size:14pt;font-weight:normal}
 
-    #gallery {border:14px;color:darkcyan;}
+    #gallery {border:14px;color:darkcyan;
+      }
   
     #gallery img{max-width: 100%;}
     
-    #gallery figure {text-align:center;}
+    #gallery figure {text-align:center; width: 300px;}
+        
 
     #lit
-    {text-align: left; font-family:Oswald;
+    {border: 5px solid darkcyan;padding: 50px;
+        margin: 10px;}
+    {text-align: left;}
+    {font-family: "Peralta", Times, serif;
     line-height: 1.5; padding: 4rem;
-    font-size: 18pt;color:black;font-weight:normal;
+    font-size: 18pt;color:black;font-weight:normal; 
     border: 14px;text-align: left;text-align:left;
     font-family: Oswald; font-size:14pt;
     margin: 0 auto
@@ -58,3 +62,4 @@ color:sienna}
     #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
         font-weight:bold;}
     
+
