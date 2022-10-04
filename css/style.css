@@ -29,10 +29,10 @@ color:sienna}
 
     #hero,img {width: 300px;}
 
-    #bio {text-align:left;
-        font-family: Oswald;
+    #bio {text-align:left;font-family: Oswald;
     font-size:14pt;
-    font-weight:normal;}
+    font-weight:normal;
+  
 
     #li{text-align:left;font-family: Oswald;
     font-size:14pt;font-weight:normal}
@@ -46,20 +46,20 @@ color:sienna}
         
 
     #lit
-    {border: 5px solid darkcyan;padding: 50px;
+    {border: 5px solid darkcyan;
+        padding: 50px;
         margin: 10px;}
     {text-align: left;}
-    {font-family: "Peralta", Times, serif;
     line-height: 1.5; padding: 4rem;
     font-size: 18pt;color:black;font-weight:normal; 
     border: 14px;text-align: left;text-align:left;
     font-family: Oswald; font-size:14pt;
-    margin: 0 auto
-    }
+    margin: 0 auto}
+   
 
     #lit div p {padding: .5rem 0; clear:both}
     
     #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
-        font-weight:bold;}
+        font-weight:bold;font-style: italic;}
     
 
