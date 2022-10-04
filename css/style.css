@@ -45,13 +45,16 @@ color:sienna}
     #gallery figure {text-align:center;}
 
     #lit
-    {text-align: left;
-    font-family:Oswald;
-    background-color:rgb(120, 145, 120);
-    line-height: 2.5;
-    font-size: 18pt;color: bisque;font-weight:lighter;
+    {text-align: left; font-family:Oswald;
+    line-height: 1.5; padding: 4rem;
+    font-size: 18pt;color:black;font-weight:normal;
     border: 14px;text-align: left;text-align:left;
-    font-family: Oswald; font-size:14pt;}
+    font-family: Oswald; font-size:14pt;
+    margin: 0 auto
+    }
 
-    #lit div {padding: 1px;max-width: 100rem;}
-
+    #lit div p {padding: .5rem 0; clear:both}
+    
+    #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
+        font-weight:bold;}
+    
