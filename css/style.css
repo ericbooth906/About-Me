@@ -12,10 +12,11 @@ h4 {font-size:18pt;text-align: left;}
 
 header {text-align: center;}
 
-#p2 {font-family: Oswald; text-align: left;
-font-size: medium;
-font-weight: normal;
-color:sienna}
+#p2 {font-family: Oswald; 
+    text-align:left;
+    font-size: medium;
+    font-weight: normal;
+    color:sienna}
 
 #hero,footer, #newbox 
 {text-align: center;
