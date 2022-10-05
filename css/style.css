@@ -60,8 +60,7 @@ color:sienna}
         font-weight:bold;font-style: italic;}
     
     #newbox {text-align:center font-family:Oswald
-    border: 1px solid darkcyan;
-    padding: 10px;
+        .boxed { order: 2px solid darkcyan padding: 10px}
     font-size: 18pt;
     font-variant: small-caps;
     color:black
