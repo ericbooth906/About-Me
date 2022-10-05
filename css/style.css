@@ -18,7 +18,7 @@ header {text-align: center;}
     font-weight: normal;
     color:sienna}
 
-#hero,footer, #newbox 
+#hero,footer
 {text-align: center;
    font-family:Oswald;
     background-color: #dfba96;
@@ -28,13 +28,23 @@ header {text-align: center;}
     font-variant: small-caps;
     color:black;}
 
+    #newbox 
+    {text-align: left;
+       font-family:Oswald;
+        background-color: #dfba96;
+        border: 3px solid #368096;
+        padding: 10px;
+        font-size: 18pt;
+        font-variant: small-caps;
+        color:black;}
+
     #hero,img {width: 300px;}
 
     #bio {text-align:left;font-family: Oswald;
     font-size:14pt;
     font-weight:normal;
   
-        #li{text-align:left;font-family: Oswald;
+        #li{text-align:center;font-family: Oswald;
     font-size:14pt;font-weight:normal}
 
     #gallery {border:14px;color:darkcyan;}
@@ -45,7 +55,7 @@ header {text-align: center;}
         
 
     #lit
-    {border: 5px solid darkcyan;
+    {border:5px solid darkcyan;
         padding: 50px;
         margin: 10px;}
     {text-align: left;}
