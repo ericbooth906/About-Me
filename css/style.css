@@ -23,8 +23,7 @@ color:sienna}
     border: 5px solid #368096;
     padding: 10px;
     font-size: 18pt;
-    font-style: italic;
-    font-weight: bold;
+    font-variant: small-caps;
     color:black;}
 
     #hero,img {width: 300px;}
@@ -33,16 +32,16 @@ color:sienna}
     font-size:14pt;
     font-weight:normal;
   
+    .boxed {border: 1px solid darkcyan ;}
 
     #li{text-align:left;font-family: Oswald;
     font-size:14pt;font-weight:normal}
 
-    #gallery {border:14px;color:darkcyan;
-      }
+    #gallery {border:14px;color:darkcyan;}
   
     #gallery img{max-width: 100%;}
     
-    #gallery figure {text-align:center; width: 300px;}
+    #gallery figure {text-align:center; font-variant: small-caps; width: 300px;}
         
 
     #lit
