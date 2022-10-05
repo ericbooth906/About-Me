@@ -32,7 +32,7 @@ color:sienna}
     font-size:14pt;
     font-weight:normal;
   
-    .boxed {border: 1px solid darkcyan ;}
+    #boxed {border: 1px solid darkcyan ;}
 
     #li{text-align:left;font-family: Oswald;
     font-size:14pt;font-weight:normal}
