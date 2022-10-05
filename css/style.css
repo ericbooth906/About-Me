@@ -32,17 +32,7 @@ color:sienna}
     font-size:14pt;
     font-weight:normal;
   
-    #box1 {text-align: center;
-        font-family:Oswald;
-         background-color: #dfba96;
-         border: 1px solid darkcyan;
-         padding: 10px;
-         font-size: 18pt;
-         font-variant: small-caps;
-         color:black
-         font-weight:lighter}
-
-    #li{text-align:left;font-family: Oswald;
+        #li{text-align:left;font-family: Oswald;
     font-size:14pt;font-weight:normal}
 
     #gallery {border:14px;color:darkcyan;}
@@ -69,4 +59,11 @@ color:sienna}
     #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
         font-weight:bold;font-style: italic;}
     
+    #newbox {text-align:center font-family:Oswald
+    border: 1px solid darkcyan;
+    padding: 10px;
+    font-size: 18pt;
+    font-variant: small-caps;
+    color:black
+    font-weight:lighter}
 
