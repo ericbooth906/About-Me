@@ -59,10 +59,9 @@ color:sienna}
     #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
         font-weight:bold;font-style: italic;}
     
-    #newbox {text-align:center font-family:Oswald
-        .boxed { order: 2px solid darkcyan padding: 10px}
-    font-size: 18pt;
-    font-variant: small-caps;
-    color:black
-    font-weight:lighter}
+    #newbox {text-align:center font-family Oswald font-size 18pt; font-variant:small-caps color black font-weight lighter}
+        .boxed {order: 2px solid darkcyan padding 10px}
+    
+   
+    
 
