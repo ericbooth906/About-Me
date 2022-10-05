@@ -17,10 +17,11 @@ font-size: medium;
 font-weight: normal;
 color:sienna}
 
-#hero,footer {text-align: center;
+#hero,footer, #newbox 
+{text-align: center;
    font-family:Oswald;
     background-color: #dfba96;
-    border: 5px solid #368096;
+    border: 3px solid #368096;
     padding: 10px;
     font-size: 18pt;
     font-variant: small-caps;
@@ -59,8 +60,7 @@ color:sienna}
     #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
         font-weight:bold;font-style: italic;}
     
-    #newbox {text-align:center font-family Oswald font-size 18pt; font-variant:small-caps color black font-weight lighter
-        border 2px solid darkcyan padding 10px}
+    
     
    
     
