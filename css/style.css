@@ -5,11 +5,12 @@ body{
 
 h1, h2, h3,h4,h5,h6
 {font-family:Oswald;color:#368096;}
-h1 {font-size:44pt;text-align: center;color:rgb(46, 27, 13) }
-h2 {font-size:36pt;text-align: left;color:saddlebrown;font-style: italic;font;text-decoration: underline;}
+h1 {font-size:44pt;text-align: center;color:rgb(46, 27, 13)}
+h2 {font-size:36pt;text-align: center; margin: 1em;  color:saddlebrown;font-style: italic;text-decoration: underline;}
 h3 {font-size:34pt;text-align: center;}
 h4 {font-size:18pt;text-align: left;}
 
+h2 {text-align:center margin 1rem}
 header {text-align: center;}
 
 #p2 {font-family: Oswald; 
@@ -28,6 +29,9 @@ header {text-align: center;}
     font-variant: small-caps;
     color:black;}
 
+    #hobbies
+    {text-align: center font-family Oswald; display: flex; flex-direction: column; align-items: center; margin: 1rem;}
+
     #newbox 
     {text-align: left;
        font-family:Oswald;
@@ -40,40 +44,57 @@ header {text-align: center;}
 
     #hero,img {width: 300px;}
 
-    #bio {text-align:left;font-family: Oswald;
-    font-size:14pt;
-    font-weight:normal;
+    #bio {text-align:center;font-family: Oswald;
+    font-size:14pt; margin: 1em;
+    font-weight:normal display flex; 
+flex-direction: column; 
+align-items: center;}
   
-    #li {text-align:center; font-family Oswald
-        font-size: 18pt;
+  
+    #li{text-align:center; 
+        font-family:Oswald;
         font-weight:normal}
 
-    #gallery {border:14px;color:darkcyan;}
+    #gallery {      
+        border:14px;
+        padding: 10px;}
   
     #gallery img{max-width: 100%;}
     
     #gallery figure {text-align:center; font-variant: small-caps; width: 300px;}
         
 
-    #lit
-    {border:5px solid darkcyan;
+    #lit{
+        background-color:cornsilk;
+        border: 10px solid darkcyan;
         padding: 50px;
         margin: 10px;
-    text-align: left;
-    line-height: 1.5; padding: 4rem;
-    font-size: 18pt;color:black;font-weight:normal; 
-    border: 14px;text-align: left;text-align:left;
-    font-family: Oswald; font-size:14pt;
-    margin: 0 auto}
+        text-align: left;
+        line-height: 1.5;
+        padding: 4rem;
+        color:black;
+        font-weight:normal; 
+        text-align: left;
+        font-family: Oswald; 
+        font-size:14pt;
+        margin: 0 auto}
    
 
     #lit div p {padding: .5rem 0; clear:both}
     
     #lit div  p::first-line{color:darkcyan;font-size: 1.5em;
-        font-weight:bold;font-style: italic;}
+        font-weight:normal;font-style: italic;}
     
     
-    
-   
-    
+    @media screen and (min-width:60em) {}
+    figure{
+     display:grid;
+     grid-template-columns: minmax(2fr 1fr);
+    }
 
+    figcaption
+    display:flex
+        justify-content center
+        align-items center
+
+{}
