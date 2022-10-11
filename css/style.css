@@ -6,7 +6,7 @@ body{
 h1, h2, h3,h4,h5,h6
 {font-family:Oswald;color:darkcyan;}
 h1 {font-size:44pt;text-align: center;color:rgb(46, 27, 13) }
-h2 {font-size:36pt;text-align: center; margin: .1rem;  color:saddlebrown;font-style: italic;text-decoration: underline;}
+h2 {font-size:36pt;text-align: center; margin: .1rem;  color:saddlebrown;font-style: italic;padding: 50px;}
 h3 {font-size:24pt;text-align: center;}
 h4 {font-size:18pt;text-align: left;}
 
@@ -48,7 +48,6 @@ header {text-align: center;}
         padding: 20px; 
         margin: 10px;
         text-align: center;
-        font-family:Oswald;
         background-color: #dfba96;
         font-size: 18pt;
         font-variant: small-caps;
@@ -110,7 +109,7 @@ header {text-align: center;}
         background-color:cornsilk;
         border: 10px solid saddlebrown;
         padding: 50px;
-        max-width: 40rem;
+        max-width: 400rem;
         margin: 10px;
         text-align: left;
         line-height: 1.5;
@@ -128,11 +127,12 @@ header {text-align: center;}
     
 
         #lit div p::first-line {
-        text-rendering: darkslategrey 2em;
+        text-rendering: darkslategrey 1.5em;
         font-weight: bolder;
         font-style: italic;
+        text-shadow: 2px 2px 2px 2px coral;
     }
-        
+       /*tablet size*/ 
     @media screen and (min-width:60em) {
        figure { 
         display: grid;
@@ -141,5 +141,10 @@ header {text-align: center;}
         figcaption {
             display: flex;
             justify-content: center;
-            align-items: center}
+            align-items: center;
+            font-size: 2rem;
+            margin-left: 1rem;}
         }
+    #lit div{
+    max-width:100%;
+    columns: 20em;}
