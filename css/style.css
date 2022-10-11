@@ -112,29 +112,25 @@ header {text-align: center;}
         padding: 50px;
         max-width: 40rem;
         margin: 10px;
-        text-align: center;
+        text-align: left;
         line-height: 1.5;
-        color:black;
         font-weight:normal; 
-        text-indent: -12px
-        align-items left
-        font-family Oswald; 
+        align-items:stretch left;
+        font-family: Oswald; 
         font-size:14pt;
-        margin-bottom:2rem}
-   
-
-    #lit div p {
-        color:black solid 2rem;
-        max-width: 40rem;
-        margin: 0 auto;
-        clear:both}
-    
+        margin-bottom:2rem
+        }
+      
         /*Dropcaps*/
 
-    #lit div p:first-letter {
-        color:darkcyan 4em
-        float-left
-        line-height 1.25;
+    #lit div
+        p  {text-indent:50px}
+    
+
+        #lit div p::first-line {
+        text-rendering: darkslategrey 2em;
+        font-weight: bolder;
+        font-style: italic;
     }
         
     @media screen and (min-width:60em) {
