@@ -37,7 +37,7 @@ header {text-align: center;}
     {display:flex;
     flex-direction: column;
     font-family:Oswald; 
-    align-items: center;}
+    align-content: center;}
 
     #hobbies ul {list-style-type: square black}
 
