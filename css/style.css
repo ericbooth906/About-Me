@@ -21,9 +21,9 @@ header {text-align: center;}
 
     /*Hero and Footer Section*/
 
-#hero,footer
-{text-align: center;
-   font-family:Oswald;
+#hero,footer {
+    align-items:center;
+    font-family:Oswald;
     background-color: #dfba96;
     border: 3px solid #368096;
     padding: 10px;
@@ -33,18 +33,24 @@ header {text-align: center;}
 
     /*Hobbie Section*/
     #hobbies
-    {text-align: center font-family Oswald; 
-    display: flex; flex-direction: column; align-items: center; margin: 1rem;}
+    {text-align: left font-family Oswald; 
+    display: flex; flex-direction: column; align-items: left; margin: 1rem;}
 
-    #newbox 
-    {text-align: center;
-       font-family:Oswald;
-        background-color: #dfba96;
+    #newbox {
+        background-color:cornsilk;
         border: 3px solid #368096;
-        padding: 10px;
+        padding: 50px;
+      
+        margin: 10px;
+        text-align: center;
+        font-family:Oswald;
+        background-color: #dfba96;
+        padding: 5px;
         font-size: 18pt;
         font-variant: small-caps;
-        color:black;}
+        color:black;
+        align-items: center;
+        }
 
     #hero,img {width: 300px;}
 
