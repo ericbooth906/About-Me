@@ -21,15 +21,30 @@ header {text-align: center;}
  
     /*Hero and Footer Section*/
 
-#hero,footer {
-    align-items:center;
-    font-family:Oswald;
+#hero{
+    {display: grid;
+    grid-template-columns: 0em;
+    align-items:center
+    font-family:Oswald
     background-color: #dfba96;
-    border: 3px solid #368096;
-    padding: 10px;
+    border 3px solid #368096;
+    padding 10px;
     font-size: 18pt;
     font-variant: small-caps;
-    color:black;
+    color:black;}
+   }
+
+   #footer {
+    {display: grid;
+    grid-template-columns: 0em;
+    align-items:center
+    font-family:Oswald
+    background-color: #dfba96;
+    border 3px solid #368096;
+    padding 10px;
+    font-size: 12pt;
+    font-variant: small-caps;
+    color:black;}
    }
 
     /*Hobbies Section*/
@@ -37,7 +52,7 @@ header {text-align: center;}
     {display:flex;
     flex-direction: column;
     font-family:Oswald; 
-    align-content: center;}
+    align-items: center;}
 
     #hobbies ul {list-style-type: square black}
 
@@ -77,7 +92,9 @@ header {text-align: center;}
     border: 2px solid black;
     margin-bottom:2rem}
 
-    #figure {      
+    #figure { 
+        display:grid;
+        grid-template-columns: 2fr 1fr;     
         padding: 10px;
         font-variant: small-caps; 
         width: 300px;
@@ -96,7 +113,8 @@ header {text-align: center;}
         align-items: center; display:grid;
         grid-template-columns: 2fr 1fr;}
         
-        #figcaption {display:flex;
+        #figcaption {
+            display:flex;
             justify-content: center;
             align-items: center;
             font-size: 2rem;
@@ -125,15 +143,14 @@ header {text-align: center;}
     #lit div
         p  {text-indent:50px}
     
-
-        #lit div p::first-line {
+        #lit div p::first-letter {
         text-rendering: darkslategrey 1.5em;
         font-weight: bolder;
         font-style: italic;
         text-shadow: 2px 2px 2px 2px coral;
     }
        /*tablet size*/ 
-    @media screen and (min-width:60em) {
+    @media screen and (min-width:60em) 
        figure { 
         display: grid;
         grid-template-columns:2fr 1fr}
@@ -144,7 +161,13 @@ header {text-align: center;}
             align-items: center;
             font-size: 2rem;
             margin-left: 1rem;}
-        }
+        
+
+   /*larger screen*/ 
+   @media screen and (min-width:100em) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr}
+    }
     #lit div{
     max-width:100%;
     columns: 20em;}
