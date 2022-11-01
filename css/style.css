@@ -212,7 +212,10 @@ header {text-align: center;}
         box-shadow: .5px .5px .5px .5px coral;
     }
            
-    
+    /* Contact Form*/
+        #formElements {
+            display:grid; }
+
         
 /*tablet size*/ 
 @media screen and (min-width:60em){
@@ -243,4 +246,5 @@ header {text-align: center;}
 
         #lit div {
         max-width: 100%;
-        columns: 20rem;}}
+        columns: 20rem;}
+        }
