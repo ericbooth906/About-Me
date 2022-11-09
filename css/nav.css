@@ -20,7 +20,15 @@ main {
 }
 
 /* navbar */
+.navbar {
+background-color:darkcyan;
+color: burlywood;
+display:flex;
+flex-direction:column;
+font-size: 1.5rem;
+margin-bottom: 1rem;
 
+}
 
 
 /* logo */
