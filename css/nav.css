@@ -45,13 +45,26 @@ margin-bottom: 1rem;
  font-size: 1.2em; 
 }
 /* navigation list */
+.navbar-links li {
+  list-style: none;
+  display: block;
+  padding: 0.5em 0;
+}
 
 
 /*  
  style all a tags in header 
  and then on hover
 */
-
+.navbar-links a {
+  color:burlywood;
+  background-color: darkcyan;
+  font-size: 1.5rem;
+  padding: .5rem .5rem;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  display:inline-block;
+}
 
 
 
