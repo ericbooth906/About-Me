@@ -57,7 +57,7 @@ margin-bottom: 1rem;
  and then on hover
 */
 .navbar-links a {
-  color:burlywood;
+  color:bisque;
   background-color: darkcyan;
   font-size: 1.25rem;
   padding: .5rem .5rem;
@@ -65,8 +65,13 @@ margin-bottom: 1rem;
   text-decoration: none;
   display:inline-block;
 }
-
-
+.navbar-links a:hover,
+.navbar-links a:focus {
+  color:brown;
+  background-color: beige;
+  border-radius:10px;
+  outline: none;
+}
 
 
 /* 
