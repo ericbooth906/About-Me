@@ -82,6 +82,7 @@ header {text-align: center;}
     text-align: center;
     color:black;
     font:bolder;
+    list-style-type: none; 
     }
 
 /*New Box Section*/
