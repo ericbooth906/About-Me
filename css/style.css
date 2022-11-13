@@ -5,8 +5,8 @@ body{
 
 h1, h2, h3,h4,h5,h6
 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:black;}
-h1 {font-size:36pt;text-align: center; color: black;}
-h2 {font-size:24pt;text-align: center; margin: .1em;  color:darkslategray;padding: 50px;}
+h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
+h2 {font-size:24pt;text-align: center; margin: .1em;  color:steelblue;padding: 25px;}
 h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
 
@@ -17,7 +17,7 @@ header {text-align: center;}
     text-align:left;
     font-size: 12pt;
     font-weight: normal;
-    color:firebrick}
+    color:maroon}
  
     /*Hero and Footer Section*/
 
@@ -26,7 +26,7 @@ header {text-align: center;}
     {flex: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:silver;
-    border:5px solid darkslategrey;
+    border:5px solid steelblue;
     border-style:groove;
     text-align: center;
     padding: 10px;
@@ -38,10 +38,10 @@ header {text-align: center;}
 #video
     {flex: auto;
     align-items: center;
-    color: firebrick;
+    color: maroon;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: silver;
-    border:5px solid darkslategray;
+    border:5px solid steelblue;
     border-style:double;
     text-align: center;
     padding: 10px;
@@ -54,7 +54,7 @@ header {text-align: center;}
     {text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: dimgray;
-    border: 1.5px solid darkslategray;
+    border: 1.5px solid steelblue;
     padding: 10px;
     font-size: 12pt;
     font-variant: small-caps;
@@ -87,7 +87,7 @@ header {text-align: center;}
 
 /*New Box Section*/
     #newbox {
-        background-color:cadetblue;
+        background-color:steelblue;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:darkslategrey; 
         font:bolder;
@@ -179,7 +179,7 @@ header {text-align: center;}
 
     #lit{
         background-color:lightgrey;
-        border: 5px solid firebrick;
+        border: 5px solid maroon;
         padding: 50px;
         text-align: left;
         line-height: 1.5;
@@ -214,7 +214,7 @@ header {text-align: center;}
         padding: .5rem;
         border: 1px outset darkgrey;
         font-weight: bolder;
-        box-shadow: .5px .5px .5px .5px firebrick;
+        box-shadow: .5px .5px .5px .5px maroon;
     }
            
     /* Contact Form*/
@@ -232,7 +232,7 @@ header {text-align: center;}
         }
 
         fieldset{
-            border: 2px solid firebrick;
+            border: 2px solid maroon;
             margin-top: 1em;
             margin-bottom: 1em;
             border-radius: 2rem;
@@ -240,7 +240,7 @@ header {text-align: center;}
         }
 
     legend{
-        background-color: firebrick;
+        background-color: maroon;
         color:silver;
         padding: 0.5rem;
         font-variant: small-caps;
@@ -256,10 +256,10 @@ header {text-align: center;}
     }
 
     #contact button {
-        background-color: firebrick;
+        background-color: maroon;
         padding: .5em;
         color:silver;
-        border: .25em solid darkslategray;
+        border: .25em solid steelblue;
         max-width: 500px;
        font-variant: small-caps;
        font-size: larger;

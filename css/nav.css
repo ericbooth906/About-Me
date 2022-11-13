@@ -70,7 +70,7 @@ padding: 1rem;
 }
 .navbar-links a:hover,
 .navbar-links a:focus {
-  color:black;
+  color:steelblue;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
   font:bolder;
