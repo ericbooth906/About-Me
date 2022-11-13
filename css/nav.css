@@ -58,7 +58,7 @@ padding: 1rem;
  and then on hover
 */
 .navbar-links a {
-  color:bisque;
+  color:black;
   background-color: grey;
   font-size: 1.5rem;
   padding: .5rem .5rem;
@@ -69,7 +69,7 @@ padding: 1rem;
 .navbar-links a:hover,
 .navbar-links a:focus {
   color:firebrick;
-  background-color: beige;
+  background-color: darkgoldenrod;
   border-radius:10px;
   outline: none;
 }
