@@ -4,7 +4,7 @@ body{
     color:black}
 
 h1, h2, h3,h4,h5,h6
-{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:black;}
+{font-family: Dosis}
 h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
 h2 {font-size:24pt;text-align: center; margin: .1em;  color:steelblue;padding: 25px;}
 h3 {font-size:24pt;text-align: center;color: black;}
@@ -13,7 +13,7 @@ h4 {font-size:18pt;text-align: left;}
 h2 {text-align:center margin 1rem}
 header {text-align: center;}
 
-#p2 {font-family:Verdana, Geneva, Tahoma, sans-serif; 
+#p2 {font-family:Dosis; 
     text-align:left;
     font-size: 12pt;
     font-weight: normal;
@@ -24,7 +24,7 @@ header {text-align: center;}
 /*Hero Section*/
     #hero
     {flex: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Dosis;
     background-color:silver;
     border:5px solid steelblue;
     border-style:groove;
@@ -39,7 +39,7 @@ header {text-align: center;}
     {flex: auto;
     align-items: center;
     color: maroon;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Dosis;
     background-color: silver;
     border:5px solid steelblue;
     border-style:double;
@@ -52,7 +52,7 @@ header {text-align: center;}
   /*Footer Section*/
     #footer 
     {text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Dosis;
     background-color: dimgray;
     border: 1.5px solid steelblue;
     padding: 10px;
@@ -66,7 +66,7 @@ header {text-align: center;}
     {display:flex;
     flex-direction: column;
     align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Dosis;
     font-size: 14pt;
     color:black;
     font:bolder;
@@ -88,7 +88,7 @@ header {text-align: center;}
 /*New Box Section*/
     #newbox {
         background-color:steelblue;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: Dosis;
         color:darkslategrey; 
         font:bolder;
         padding: 10px 1/4; 
@@ -117,20 +117,20 @@ header {text-align: center;}
 
     #bio {
         background-color:silver;
-        border:slategrey 5px solid;
+        border:maroon 5px solid;
         margin-top: 10px;
         margin-right: 10px;
         margin-left: 10px;
         margin-bottom: 10px;
         text-align:left;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Dosis;
         font-size:14pt;
         font-weight:normal display flex; 
         flex-direction: column; 
         align-items: center;}
   
     #li{text-align:center; 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:Dosis;
         font-weight:normal}
 
 /*Gallery Section*/
@@ -184,7 +184,7 @@ header {text-align: center;}
         text-align: left;
         line-height: 1.5;
         font-weight:normal; 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        font-family:Dosis; 
         font-size:14pt;
         margin-bottom:2rem;
         }
