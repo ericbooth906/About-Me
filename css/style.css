@@ -1,12 +1,12 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:#f3dec8;
-    color:darkcyan}
+    color:grey}
 
 h1, h2, h3,h4,h5,h6
-{font-family:Oswald;color:darkcyan;}
-h1 {font-size:44pt;text-align: center; color: burlywood;}
-h2 {font-size:36pt;text-align: center; margin: .1em;  color:saddlebrown;font-style: italic;padding: 50px;}
+{font-family:Oswald;color:gray;}
+h1 {font-size:44pt;text-align: center; color: black;}
+h2 {font-size:36pt;text-align: center; margin: .1em;  color:firebrick;font-style: italic;padding: 50px;}
 h3 {font-size:24pt;text-align: center;}
 h4 {font-size:18pt;text-align: left;}
 
@@ -17,7 +17,7 @@ header {text-align: center;}
     text-align:left;
     font-size: 12pt;
     font-weight: normal;
-    color:sienna}
+    color:firebrick}
  
     /*Hero and Footer Section*/
 
@@ -25,8 +25,8 @@ header {text-align: center;}
     #hero
     {flex: auto;
     font-family: Oswald;
-    background-color:blanchedalmond;
-    border:5px solid #368096;
+    background-color:sil;
+    border:5px solid darkslategrey;
     border-style:groove;
     text-align: center;
     padding: 10px;
@@ -37,10 +37,11 @@ header {text-align: center;}
 /*Video Section*/
 #video
     {flex: auto;
-    align-items: center chocolate;
+    align-items: center;
+    color: firebrick;
     font-family: Oswald;
-    background-color:blanchedalmond;
-    border:5px solid #368096;
+    background-color: silver;
+    border:5px solid darkslategray;
     border-style:double;
     text-align: center;
     padding: 10px;
@@ -52,12 +53,12 @@ header {text-align: center;}
     #footer 
     {text-align: center;
     font-family:Oswald;
-    background-color: saddlebrown;
-    border: 1.5px solid #368096;
+    background-color:firebrick;
+    border: 1.5px solid darkslategray;
     padding: 10px;
     font-size: 12pt;
     font-variant: small-caps;
-    color: bisque;}
+    color: silver;}
    
 
 /*Hobbies Section*/
@@ -131,7 +132,7 @@ header {text-align: center;}
 /*Gallery Section*/
 
     #gallery{
-    border: 5px solid darkcyan;
+    border: 5px solid grey;
     align-items: center;
     margin-bottom:2rem}
 
@@ -174,7 +175,7 @@ header {text-align: center;}
 
     #lit{
         background-color:cornsilk;
-        border: 5px solid saddlebrown;
+        border: 5px solid firebrick;
         padding: 50px;
         text-align: left;
         line-height: 1.5;
@@ -209,7 +210,7 @@ header {text-align: center;}
         padding: .5rem;
         border: 1px outset darkgrey;
         font-weight: bolder;
-        box-shadow: .5px .5px .5px .5px coral;
+        box-shadow: .5px .5px .5px .5px firebrick;
     }
            
     /* Contact Form*/
@@ -227,7 +228,7 @@ header {text-align: center;}
         }
 
         fieldset{
-            border: 2px solid saddlebrown;
+            border: 2px solid firebrick;
             margin-top: 1em;
             margin-bottom: 1em;
             border-radius: 2rem;
@@ -235,7 +236,7 @@ header {text-align: center;}
         }
 
     legend{
-        background-color: saddlebrown;
+        background-color: firebrick;
         color:bisque;
         padding: 0.5rem;
         font-variant: small-caps;
@@ -251,7 +252,7 @@ header {text-align: center;}
     }
 
     #contact button {
-        background-color: saddlebrown;
+        background-color: firebrick;
         padding: .5em;
         color:bisque;
         border: .25em solid darkslategray;
