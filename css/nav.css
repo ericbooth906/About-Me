@@ -60,6 +60,7 @@ padding: 1rem;
 .navbar-links a {
   color:black;
   background-color: grey;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
   font-size: 1.5rem;
   padding: .5rem .5rem;
@@ -70,6 +71,7 @@ padding: 1rem;
 .navbar-links a:hover,
 .navbar-links a:focus {
   color:black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
   font:bolder;
   background-color: goldenrod;
