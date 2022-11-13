@@ -1,13 +1,13 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:darkgray;
-    color:grey}
+    color:black}
 
 h1, h2, h3,h4,h5,h6
-{font-family:Oswald;color:gray;}
+{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:black;}
 h1 {font-size:44pt;text-align: center; color: black;}
-h2 {font-size:36pt;text-align: center; margin: .1em;  color:firebrick;font-style: italic;padding: 50px;}
-h3 {font-size:24pt;text-align: center;}
+h2 {font-size:24pt;text-align: center; margin: .1em;  color:darkslategray;padding: 50px;}
+h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
 
 h2 {text-align:center margin 1rem}
@@ -39,7 +39,7 @@ header {text-align: center;}
     {flex: auto;
     align-items: center;
     color: firebrick;
-    font-family: Oswald;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: silver;
     border:5px solid darkslategray;
     border-style:double;
@@ -52,7 +52,7 @@ header {text-align: center;}
   /*Footer Section*/
     #footer 
     {text-align: center;
-    font-family:Oswald;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: dimgray;
     border: 1.5px solid darkslategray;
     padding: 10px;
@@ -67,8 +67,9 @@ header {text-align: center;}
     flex-direction: column;
     align-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
     font:bolder;
-    background-color:darkslategrey;
+    background-color:silver;
     border:slategrey 5px solid;
     margin:.1em}
 
@@ -78,8 +79,9 @@ header {text-align: center;}
 
     #hobbies ul {
     text-align: center;
-    color:blanchedalmond;
-    font:bolder;}
+    color:black;
+    font:bolder;
+    }
 
 /*New Box Section*/
     #newbox {
@@ -237,7 +239,7 @@ header {text-align: center;}
 
     legend{
         background-color: firebrick;
-        color:bisque;
+        color:silver;
         padding: 0.5rem;
         font-variant: small-caps;
     }
@@ -254,7 +256,7 @@ header {text-align: center;}
     #contact button {
         background-color: firebrick;
         padding: .5em;
-        color:bisque;
+        color:silver;
         border: .25em solid darkslategray;
         max-width: 500px;
        font-variant: small-caps;
