@@ -5,7 +5,7 @@ body{
 
 h1, h2, h3,h4,h5,h6
 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:black;}
-h1 {font-size:44pt;text-align: center; color: black;}
+h1 {font-size:36pt;text-align: center; color: black;}
 h2 {font-size:24pt;text-align: center; margin: .1em;  color:darkslategray;padding: 50px;}
 h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
@@ -25,12 +25,12 @@ header {text-align: center;}
     #hero
     {flex: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:sil;
+    background-color:silver;
     border:5px solid darkslategrey;
     border-style:groove;
     text-align: center;
     padding: 10px;
-    font-size: 18pt;
+    font-size: 14pt;
     font-variant: small-caps;
     color: black;}
    
@@ -67,6 +67,7 @@ header {text-align: center;}
     flex-direction: column;
     align-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
     color:black;
     font:bolder;
     background-color:silver;
@@ -120,7 +121,7 @@ header {text-align: center;}
         margin-right: 10px;
         margin-left: 10px;
         margin-bottom: 10px;
-        text-align:center;
+        text-align:left;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size:14pt;
         font-weight:normal display flex; 
