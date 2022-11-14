@@ -5,8 +5,7 @@ html {
 }
 
 /* 
- get rid of padding & sizing on body so
- header is at top
+ get rid of padding & sizing on body so  header is at top
 */
 body {
   box-sizing: border-box;

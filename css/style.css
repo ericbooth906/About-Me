@@ -89,9 +89,8 @@ header {text-align: center;}
 
 /*New Box Section*/
     #newbox {
-        background-color:steelblue;
+        background-color:silver;
         font-family: Dosis;
-        color:darkslategrey; 
         font:bolder;
         padding: 10px 1/4; 
         margin: .1em;
