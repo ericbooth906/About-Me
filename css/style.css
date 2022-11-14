@@ -6,7 +6,7 @@ body{
 h1, h2, h3,h4,h5,h6
 {font-family: Dosis}
 h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
-h2 {font-size:24pt;text-align: center; margin: .1em;  color:steelblue;padding: 25px;}
+h2 {font-size:24pt;text-align: center; margin: .1em; font-weight: bolder; color:black;padding: 25px;}
 h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
 
@@ -26,11 +26,11 @@ header {text-align: center;}
     {flex: auto;
     font-family: Dosis;
     background-color:silver;
-    border:5px solid steelblue;
+    border:5px solid maroon;
     border-style:groove;
     text-align: center;
     padding: 10px;
-    font-size: 14pt;
+    font-size:20pt;
     font-variant: small-caps;
     color: black;}
    
@@ -41,8 +41,8 @@ header {text-align: center;}
     color: maroon;
     font-family: Dosis;
     background-color: silver;
-    border:5px solid steelblue;
-    border-style:double;
+    border:5px solid maroon;
+    border-style:groove;
     text-align: center;
     padding: 10px;
     font-size: 18pt;
@@ -54,7 +54,8 @@ header {text-align: center;}
     {text-align: center;
     font-family:Dosis;
     background-color: dimgray;
-    border: 1.5px solid steelblue;
+    border:5px solid maroon;
+    border-style:groove;
     padding: 10px;
     font-size: 12pt;
     font-variant: small-caps;
@@ -71,7 +72,8 @@ header {text-align: center;}
     color:black;
     font:bolder;
     background-color:silver;
-    border:slategrey 5px solid;
+    border:5px solid maroon;
+    border-style:groove;
     margin:.1em}
 
 #hobbies
@@ -118,6 +120,7 @@ header {text-align: center;}
     #bio {
         background-color:silver;
         border:maroon 5px solid;
+        border-style:groove;
         margin-top: 10px;
         margin-right: 10px;
         margin-left: 10px;
