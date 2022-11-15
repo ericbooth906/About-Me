@@ -128,14 +128,43 @@ src="https://www.youtube.com/embed/BWRV81KcDFM" title="Deer In The Yard - Hillsb
         <article>
 <section id = "lit">
     
-    <h2> An Excerpt from the Picture of Dorian Gray</h2>
+    <h2>Understanding Variable Fonts</h2>
     <div>
     
-        <p>"Days in summer, Basil, are apt to linger," murmured Lord Henry. "Perhaps you will tire sooner than he will. It is a sad thing to think of, but there is no doubt that genius lasts longer than beauty. That accounts for the fact that we all take such pains to over-educate ourselves. In the wild struggle for existence, we want to have something that endures, and so we fill our minds with rubbish and facts, in the silly hope of keeping our place. The thoroughly well-informed man--that is the modern ideal. And the mind of the thoroughly well-informed man is a dreadful thing. It is like a bric-a-brac shop, all monsters and dust, with everything priced above its proper value. I think you will tire first, all the same. Some day you will look at your friend, and he will seem to you to be a little out of drawing, or you won't like his tone of colour, or something. You will bitterly reproach him in your own heart, and seriously think that he has behaved very badly to you. The next time he calls, you will be perfectly cold and indifferent. It will be a great pity, for it will alter you. What you have told me is quite a romance, a romance of art one might call it, and the worst of having a romance of any kind is that it leaves one so unromantic."</p>
-        <p>"Harry, don't talk like that. As long as I live, the personality of Dorian Gray will dominate me. You can't feel what I feel. You change too often."</p>
-        <p>"Ah, my dear Basil, that is exactly why I can feel it. Those who are faithful know only the trivial side of love: it is the faithless who know love's tragedies." And Lord Henry struck a light on a dainty silver case and began to smoke a cigarette with a self-conscious and satisfied air, as if he had summed up the world in a phrase. There was a rustle of chirruping sparrows in the green lacquer leaves of the ivy, and the blue cloud-shadows chased themselves across the grass like swallows. How pleasant it was in the garden! And how delightful other people's emotions were!--much more delightful than their ideas, it seemed to him. One's own soul, and the passions of one's friends--those were the fascinating things in life. He pictured to himself with silent amusement the tedious luncheon that he had missed by staying so long with Basil Hallward. Had he gone to his aunt's, he would have been sure to have met Lord Goodbody there, and the whole conversation would have been about the feeding of the poor and the necessity for model lodging-houses. Each class would have preached the importance of those virtues, for whose exercise there was no necessity in their own lives. The rich would have spoken on the value of thrift, and the idle grown eloquent over the dignity of labour. It was charming to have escaped all that! As he thought of his aunt, an idea seemed to strike him. He turned to Hallward and said, "My dear fellow, I have just remembered."</p>
-        <p>"Remembered what, Harry?"</p>
-        <p>"Where I heard the name of Dorian Gray."</p>
+        <p><b>New font technology</b> - OpenType Font Variations – informally referred to as “variable fonts” was released in 2016 as a joint initiative of Adobe, Apple, Google and Microsoft, and has had a huge impact on web development and presentation.  There is a difference between font and typeface: a typeface is the underlying visual design that can exist in many different typesetting technologies; a font is one of these implementations, in a digital file format. In other words, a typeface is what you see, and the font is what you use.
+        </p>
+
+        <ul>
+            <li>Smaller file size </li> 
+            <li>Only one file</li> 
+            <li>Flexible design range</li> 
+        </ul>
+        <p>This change is a boon to creators who previously were forced to balance design expressiveness (the number of fonts used) with website performance (the amount of data to download). Downloading a single file instead of multiple individual fonts can yield a significant performance gain in reduced file size and fewer file requests.
+        </p>
+        <p>The variation axis expresses a single aspect of a typeface design. There are two types of axes - registered and custom - and five registered axes, which control known, predictable features of the font:  
+        </p>
+        
+        <p><strong>Weight (wght)</strong>	( CSS attribute: font-weight)
+            The weight axis defines how light or bold a font looks and can range from lighter/thinner weight to super heavy extremes. Variable fonts allow designers to choose values (expressed as minimum and maximum numeric values) in order to highlight various elements.  </p>
+                        
+            <p><strong>Width (wdth) </strong>	( CSS attribute: font-stretch)
+            In typeface design, width design is expressed using terms such as condensed, compressed, or extended to identify narrow or wide a font is relative to the “normal” design.
+            
+            <p><strong>Italic (ital) </strong>	( CSS attribute: font-style)
+            The italic axis usually means slanted strokes. Having italics available alongside the upright forms is useful when combined with weight to handle everyday needs for body copy, requiring only 1 or 2 files instead of at least 4.
+            
+            <p><strong> Slant (slnt) </strong>	( CSS attribute: font-style)
+            Slant is similar but slightly different than italic. Slant is expressed as a degree continuum such as “greater than -90 and less than +90” and, also does not contain the glyph substitution that is present inn italic.
+            
+            <p><strong>Optical size (opsz)</strong>	( CSS attribute: font-optical-sizing)
+            A good optical-size axis makes type more legible at smaller sizes, a process that dates back to printing in the early 16<sup>th</sup> century, when punch cutters hand-carved type out of metal and would cut smaller type with slightly thicker strokes so that it would print well and be legible at smaller sizes
+            
+            <p> In addition, to the above type designers can create infinite variations by customizing the axes for  grade, expressiveness, the ascender and descender height of lowercase letters, and other innovative modifications.  
+            </p>
+            <p> Modern web development has benefitted from the wisdom of the ages, especially the concept of optical sizing, which fell out of practice in the age of digital type and photo typesetting yet has come back in full force as visual presentation must be responsive to screen sizes that range from phone to desktop. OpenType Font Variations showcase the benefits that can occur when content creators and designers work effectively with the tech side of the house to address issues on both sides of the web development.</p>
+            
+            <p> To see how OpenType Variable Fonts work, visit <a href="https://www.axis-praxis.org">Axis-Praxis,</a> a website created for designers to experiment with typeface options.</p>
+
              </article>
         </div>
 
