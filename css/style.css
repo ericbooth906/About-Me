@@ -205,7 +205,7 @@ header {text-align: center;}
 
  /*Dropcaps*/
 
-    #lit div p:first-child:first-letter {
+    /*#lit div p:first-child:first-letter
         padding: 2rem 0;
         clear: both;
         max-width: 40rem;
@@ -218,8 +218,8 @@ header {text-align: center;}
         border: 1px outset darkgrey;
         font-family:Dosis;
         font-weight: bolder;
-        box-shadow: .5px .5px .5px .5px maroon;
-    }
+        box-shadow: .5px .5px .5px .5px maroon;*/
+    
            
     /* Contact Form*/
         #formElements{
