@@ -138,6 +138,7 @@ header {text-align: center;}
 /*Gallery Section*/
 
     #gallery{
+    background-color:silver;
     border: 5px solid grey;
     align-items: center;
     margin-bottom:2rem}
