@@ -77,10 +77,11 @@ header {text-align: center;}
     margin:.1em}
 
 #hobbies
-    h2 {margin:.1em}
+    {h2 {margin:.1em}}
     
 
-    #hobbies ul {
+    #hobbies ul
+    {
     text-align: center;
     color:black;
     font:bolder;
@@ -88,7 +89,8 @@ header {text-align: center;}
     }
 
 /*New Box Section*/
-    #newbox {
+    #newbox
+    {
         background-color:silver;
         font-family: Dosis;
         font:bolder;
@@ -101,7 +103,8 @@ header {text-align: center;}
         align-items: center;
         }
 
-        #mushroom {
+        #mushroom
+        {
             background-color:silver;
             border:slategrey 3px solid;
             padding: 10px 1/4; 
@@ -110,8 +113,8 @@ header {text-align: center;}
             font-size: 18pt;
             font-variant: small-caps;
             color:black;
-            align-items: center;
-            }
+            align-items: center;}
+
     #hero img {width: 300px;}
 
     /*Bio Section*/
@@ -145,8 +148,7 @@ header {text-align: center;}
 
     #gallery img {
         max-width: 100%;
-        align-items: center;
-    }
+        align-items: center;}
 
     #gallery figure { 
         display:grid;
@@ -180,7 +182,7 @@ header {text-align: center;}
 
 /*Article Section */  
 
-    #lit{
+    #lit {
         background-color:lightgrey;
         border: 5px solid maroon;
         padding: 50px;
@@ -209,7 +211,7 @@ header {text-align: center;}
         padding: 2rem 0;
         clear: both;
         max-width: 40rem;
-        margin: 0 auto;
+        margin: 0 auto;h
         float:.5rem inline-start;
         color: black;
         background-color: darkgoldenrod;
